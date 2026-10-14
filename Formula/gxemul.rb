@@ -3,7 +3,7 @@ class Gxemul < Formula
   homepage "https://github.com/rpajarola/gxemul"
   url "https://github.com/rpajarola/gxemul/archive/refs/tags/v0.7.0-rp1.tar.gz"
   version "0.7.0-rp1"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "96e2f0b972edc115b1aa273ae1eb4804ce205bd7c942929942b0a6b5e423eb1c"
   license "BSD-3-Clause"
   head "https://github.com/rpajarola/gxemul.git", branch: "master"
 
