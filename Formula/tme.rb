@@ -2,7 +2,7 @@ class Tme < Formula
   desc "Machine Emulator for Sun-2, Sun-3, Sun-4c and UltraSPARC systems"
   homepage "https://github.com/rpajarola/tme"
   url "https://github.com/rpajarola/tme/archive/refs/tags/v0.12rc7.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "c6e7809320ab80c6e4bf8c5efa683e7cab8b4d3d2fe26a925c34ce925624c086"
   license "BSD-4-Clause"
   head "https://github.com/rpajarola/tme.git", branch: "main"
 
