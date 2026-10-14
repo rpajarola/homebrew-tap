@@ -1,4 +1,4 @@
-class Tme < Formula
+class TmeRp < Formula
   desc "Machine Emulator for Sun-2, Sun-3, Sun-4c and UltraSPARC systems"
   homepage "https://github.com/rpajarola/tme"
   url "https://github.com/rpajarola/tme/archive/refs/tags/v0.12rc7.tar.gz"
@@ -31,7 +31,7 @@ class Tme < Formula
 
   def caveats
     <<~EOS
-      Example machines are in #{pkgshare}/examples.
+      Example machines are in #{HOMEBREW_PREFIX}/share/tme/examples.
     EOS
   end
 

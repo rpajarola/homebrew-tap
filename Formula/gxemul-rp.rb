@@ -1,4 +1,4 @@
-class Gxemul < Formula
+class GxemulRp < Formula
   desc "Full-system emulator for MIPS, ARM, PowerPC, M88K, SuperH and other machines"
   homepage "https://github.com/rpajarola/gxemul"
   url "https://github.com/rpajarola/gxemul/archive/refs/tags/v0.7.0-rp1.tar.gz"
