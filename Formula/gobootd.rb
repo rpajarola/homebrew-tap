@@ -15,6 +15,8 @@ class Gobootd < Formula
     system "go", "build", *std_go_args(ldflags:, output: bin/"bootbridge"), "./cmd/bootbridge"
     (pkgshare/"examples").install "etc/bootd.hcl", "etc/bootbridge.hcl"
     doc.install "README.md", "cmd/bootbridge/README.md" => "bootbridge.md"
+    man5.install Dir["man/*.5"]
+    man8.install Dir["man/*.8"]
 
     inreplace "packaging/macos/bootd.hcl" do |s|
       s.gsub! "/usr/local/var/bootd", var/"bootd"
