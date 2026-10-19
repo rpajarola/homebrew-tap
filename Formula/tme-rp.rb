@@ -1,8 +1,8 @@
 class TmeRp < Formula
   desc "Machine Emulator for Sun-2, Sun-3, Sun-4c and UltraSPARC systems"
   homepage "https://github.com/rpajarola/tme"
-  url "https://github.com/rpajarola/tme/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "d567a27eca8e69a92a018048fde81c2ca0e8ab93afc062297d1c9e76a3c14351"
+  url "https://github.com/rpajarola/tme/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "b63f53f6bb5a6574f64081a6e58f6d9d5a8f234d18fd839918631c92c46b9e17"
   license "BSD-4-Clause"
   head "https://github.com/rpajarola/tme.git", branch: "main"
 
