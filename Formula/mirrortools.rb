@@ -11,6 +11,7 @@ class Mirrortools < Formula
   def install
     ldflags = "-s -w -X github.com/rpajarola/mirrortools/internal/version.Version=#{version}"
     system "go", "build", *std_go_args(ldflags:, output: bin/"mirror"), "./cmd/mirror"
+    man1.install Dir["man/*.1"]
     doc.install "README.md"
     {
       "archiveorg" => "archiveorg", "ftpmirror" => "ftp", "gopher" => "gopher", "gphotos" => "gphotos",
