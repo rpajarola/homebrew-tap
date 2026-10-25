@@ -4,6 +4,7 @@ class TmeRp < Formula
   url "https://github.com/rpajarola/tme/archive/refs/tags/v1.1.0.tar.gz"
   sha256 "b63f53f6bb5a6574f64081a6e58f6d9d5a8f234d18fd839918631c92c46b9e17"
   license "BSD-4-Clause"
+  revision 1
   head "https://github.com/rpajarola/tme.git", branch: "main"
 
   depends_on "autoconf" => :build
@@ -11,16 +12,10 @@ class TmeRp < Formula
   depends_on "libtool" => :build
   depends_on "pkgconf" => :build
   depends_on "texinfo" => :build
-  depends_on "cairo"
-  depends_on "glib"
-  depends_on "gtk+3"
   depends_on "sdl2-compat"
 
   uses_from_macos "bison" => :build
-
-  on_macos do
-    depends_on "gettext"
-  end
+  uses_from_macos "zlib"
 
   def install
     system "autoreconf", "--force", "--install", "--verbose"
