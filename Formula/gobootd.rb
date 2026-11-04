@@ -1,8 +1,8 @@
 class Gobootd < Formula
   desc "Boot server for old and unusual machines"
   homepage "https://github.com/rpajarola/gobootd"
-  url "https://github.com/rpajarola/gobootd/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "3d7d03c790dd601d700c13cd3154ec6989a7b5b84e06d6154b3e6cea30c50908"
+  url "https://github.com/rpajarola/gobootd/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "40b5cf4267461faf47c21b6fd841f98dc464207cceaf933e2416c79da15717da"
   license "GPL-3.0-only"
   head "https://github.com/rpajarola/gobootd.git", branch: "main"
 
