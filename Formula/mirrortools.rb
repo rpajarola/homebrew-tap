@@ -1,8 +1,8 @@
 class Mirrortools < Formula
   desc "Mirror HTTP, FTP, archive.org, IMAP and other services to local disk"
   homepage "https://github.com/rpajarola/mirrortools"
-  url "https://github.com/rpajarola/mirrortools/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "1b3126a5388e793b2c925304806858419325c70a9e1ac385419bc4a2fcbb8c6d"
+  url "https://github.com/rpajarola/mirrortools/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "8b19a2cfd700aa3830563a5ff2d3991613af9505aca771dac4d30eb59749d649"
   license "GPL-3.0-only"
   head "https://github.com/rpajarola/mirrortools.git", branch: "main"
 
