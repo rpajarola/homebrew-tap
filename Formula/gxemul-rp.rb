@@ -1,9 +1,9 @@
 class GxemulRp < Formula
   desc "Full-system emulator for MIPS, ARM, PowerPC, M88K, SuperH and other machines"
   homepage "https://github.com/rpajarola/gxemul"
-  url "https://github.com/rpajarola/gxemul/archive/refs/tags/v1.0.32.tar.gz"
-  version "1.0.32"
-  sha256 "79e392c8e7893ea6be5ebdeb74eee83f00e919d733e1bc513b9c38c880ae1f3d"
+  url "https://github.com/rpajarola/gxemul/archive/refs/tags/v1.0.33.tar.gz"
+  version "1.0.33"
+  sha256 "559f75a8bf2c415112e3498c8a367a467f0b055978fbe9e6126fbb5829a45538"
   license "BSD-3-Clause"
   head "https://github.com/rpajarola/gxemul.git", branch: "master"
 
